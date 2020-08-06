@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+  background-color: whitesmoke;
+}
+
+nav ul li {
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 10rem 1rem 10rem;
+  align-items: center;
+}
+
+nav ul li img {
+  height: 40px;
+  width: 40px;
+}
+
+.comp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-weight: lighter;
+  padding: 0 10rem 0 10rem;
+}
+
+#home article {
+  display: grid;
+  justify-content: center;
+}
+
+.comp li {
+  list-style: none;
+}
+
+#article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#home div img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+}
+
+h1 {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background-color: yellow;
+}
+
+#button {
+  background-color: yellow;
+  padding: 40px;
+
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#jo {
+  color: #e75480;
+}
+
+#re {
+  color: #cc5801;
+}
+
+#dan {
+  color: #00008b;
+}
+
+#yi {
+  color: saddlebrown;
+
+}
+
+#but {
+  border-color: white;
+  padding: 20px;
+  border-radius: 30%;
+
+  font-weight: bold;
+}
+
+#foot {
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: lighter;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+#lang {
+  font-weight: lighter;
+  padding: 10px;
+}
+
+#ven {
+  padding-bottom: 40px;
+}
+
+#font {
+  color: rgb(76, 0, 255);
+}
+
+#k {
+  padding-right: 0.5rem;
+  padding-left: 0.5em;
+}
+
+#l {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#m {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#col {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+#ky {
+  padding-bottom: 10px;
+}
+
+#foot h3 {
+  padding-right: 80px;
+
+  color: white;
+}
+
+#foot div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 140px;
+}
+
+#foot a {
+  text-decoration: none;
+}
